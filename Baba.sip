@@ -1,6 +1,6 @@
 // Define SIP wrapper for Baba library.
 
-%Module Baba
+%Module baba
 
 class Baba
 {
@@ -10,7 +10,7 @@ class Baba
 
 public:
     Baba();
-    const char *getName();
+    int getValue();
 
 // No need to expose private api/members.
 // Also, can expose only public api you want to.

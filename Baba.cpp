@@ -2,10 +2,10 @@
 
 Baba::Baba()
 {
-    mName = "Raju Baba";
+    mValue = 420;
 }
 
-const char *Baba::getName()
+int Baba::getValue()
 {
-    return mName;
+    return mValue;
 }

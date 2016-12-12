@@ -19,5 +19,7 @@ makefile = sipconfig.SIPModuleMakefile(config, build_file)
 # ".dll" extension on Windows).
 makefile.extra_libs = ["baba"]
 
+makefile.extra_lflags = ['-L.']
+
 # Generate the Makefile itself.
 makefile.generate()

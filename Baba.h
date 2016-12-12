@@ -2,8 +2,8 @@ class Baba
 {
 public:
     Baba();
-    const char *getName();
+    int getValue();
 
 private:
-    const char *mName;
+    int mValue;
 };
