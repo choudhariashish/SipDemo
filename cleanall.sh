@@ -1,1 +1,1 @@
-rm *.o *.so *.exp *.sbf sip* Makefile
+rm *.so *.exp *.sbf sip* *.o Makefile
